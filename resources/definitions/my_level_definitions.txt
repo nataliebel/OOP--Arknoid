@@ -1,0 +1,111 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Hearts
+ball_velocities:40,360 -40,360 -30,360 30,360
+background:image(background_images/heart.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/hearts_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:45
+START_BLOCKS
+---lll---lll---
+-
+--lllll-lllll--
+-
+--lllllllllll--
+-
+---lllllllll---
+-
+-----lllll-----
+-
+------lll------
+-
+-------l-------
+-
+---zzz---zzz---
+-
+--zzzzz-zzzzz--
+-
+--zzzzzzzzzzz--
+-
+---zzzzzzzzz---
+-
+-----zzzzz-----
+-
+------zzz------
+-
+-------z-------
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: Emoji
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/emoji.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/emoji_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:90
+row_height:25
+num_blocks:72
+START_BLOCKS
+-
+-
+--llllllllllll---
+-
+--rrrrrrrrrrrr---
+-
+--llllllllllll---
+-
+--rrrrrrrrrrrr---
+-
+--llllllllllll---
+-
+--rrrrrrrrrrrr---
+-
+--llllllllllll---
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+
+START_LEVEL
+level_name: Snow White
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/snowWhite.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/snowWhite_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:120
+START_BLOCKS
+-
+-
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+
+END_BLOCKS
+END_LEVEL
+

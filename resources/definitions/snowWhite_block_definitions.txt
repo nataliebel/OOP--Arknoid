@@ -1,0 +1,9 @@
+# default values for blocks
+default height:25 width:50
+
+# block definitions
+bdef symbol:b hit_points:1 fill:image(block_images/apple.jpg)
+bdef symbol:a hit_points:2 fill:image(block_images/appleB.png) fill-2:image(block_images/apple.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
